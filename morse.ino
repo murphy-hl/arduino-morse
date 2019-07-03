@@ -47,10 +47,9 @@ void loop()
     case 'x': morse.dash();morse.dot();morse.dot();morse.dash();break;
     case 'y': morse.dash();morse.dot();morse.dash();morse.dash();break;
     case 'z': morse.dash();morse.dash();morse.dot();morse.dot();break;
-    default:  break;      
+    case ' ': morse,c_space();break;
+    default:  morse,w_space();break;      
   }
-  delay(200);
   }
-
   delay(3000);
 }
